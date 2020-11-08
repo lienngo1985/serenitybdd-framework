@@ -38,6 +38,11 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>net.serenity-bdd</groupId>
+            <artifactId>serenity-screenplay-webdriver</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+        <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.0.13</version>
@@ -84,6 +89,9 @@
                     <systemPropertyVariables>
                         <webdriver.base.url>${webdriver.base.url}</webdriver.base.url>
                     </systemPropertyVariables>
+                    <systemProperties>
+                        <webdriver.chrome.driver>chromedriver</webdriver.chrome.driver>
+                    </systemProperties>
                     <parallel>classes</parallel>
                     <threadCount>${parallel.tests}</threadCount>
                     <forkCount>${parallel.tests}</forkCount>
@@ -91,7 +99,7 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>integration-test</goal>
+                            <goal>net.serenitybdd.screenplay.herokuapp.actions.integration-test</goal>
                             <goal>verify</goal>
                         </goals>
                     </execution>
@@ -116,7 +124,7 @@
                 <executions>
                     <execution>
                         <id>serenity-reports</id>
-                        <phase>post-integration-test</phase>
+                        <phase>post-net.serenitybdd.screenplay.herokuapp.actions.integration-test</phase>
                         <goals>
                             <goal>aggregate</goal>
                         </goals>
