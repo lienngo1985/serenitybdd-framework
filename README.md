@@ -20,8 +20,8 @@ Open a command window and run:
 mvn clean verify
 
 ###### Run From IDE
-Change desired browser in src\test\resources\serenity.conf
-Run the test in src\test\java\net\serenitybdd\screenplay\amazon\integration
+- Change desired browser in src\test\resources\serenity.conf
+- Run the test in src\test\java\net\serenitybdd\screenplay\amazon\integration
 
 ### Viewing the reports
 Both of the commands provided above will produce a Serenity test report in the target/site/serenity directory. Go take a look!
