@@ -2,7 +2,7 @@
 
 This is the simplest possible build script setup for Serenity BDD using Java.
 
-This is a very minimal sample project done on Amazon site as example, using JUnit and Serenity BDD in Java. You can use this project as a quick starting point for your own projects.
+This is a very minimal sample project done on Amazon site, using JUnit and Serenity BDD in Java. You can use this project as a quick starting point for your own projects.
 
 ### Get Prepared
 - **Java** (http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed.
