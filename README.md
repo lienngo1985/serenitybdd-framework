@@ -12,7 +12,7 @@ Make sure you have [Maven 3.3.x or higher](https://maven.apache.org/download.cgi
 
 ### Usage
 - **Supported Platforms** - Windows, Mac
-- **Supported Platforms** - Chrome (version 86), Firefox (latest version)
+- **Supported Browsers** - Chrome (version 86), Firefox (latest version)
 **Known Issues on macOS 10.15 (Catalina)** - Due to the requirement from Apple that all programs must be notarized, geckodriver will not work on Catalina if you manually download it through another notarized program, such as Firefox.
 
 ### Get the code
