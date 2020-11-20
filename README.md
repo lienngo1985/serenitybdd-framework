@@ -18,6 +18,7 @@ Make sure you have [Maven 3.3.x or higher](https://maven.apache.org/download.cgi
 ### Get the code
 Git:
 git clone https://github.com/lienngo1985/serenitybdd-framework.git
+git master
 
 ### Run First Test
 ###### Use Maven
